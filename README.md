@@ -1,6 +1,6 @@
 # Time Clock Calculator
 
-## Version 1.0.0 - [ [changelog](https://github.com/marchershey/Time-Clock-Calculator/blob/master/CHANGELOG.md) ] [ [demo](https://github.com/marchershey/Time-Clock-Calculator/blob/master/demo) ]
+## Version 1.0.0 - [ [changelog](https://github.com/marchershey/Time-Clock-Calculator/blob/master/CHANGELOG.md) ] [ [demo](https://marchershey.github.io/Time-Clock-Calculator/demo/) ]
 
 The time clock calculator allows you to enter the start and end time of your shifts for the week to get the total hours worked.
 
