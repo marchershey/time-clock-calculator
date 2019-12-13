@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Time Clock Calculator</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+</head>
+
+<body>
+    <div class="container vh-100">
+        <div class="row align-items-center h-100">
+            <div class="col-xs-10 col-sm-9 col-md-8 col-lg-7 col-xl-6 mx-auto">
+                <div class="card">
+                    <div class="card-header text-center font-weight-bold">
+                        Time Clock Calculator v1.0
+                    </div>
+                    <div class="card-body pb-2">
+                        <div class="row">
+                            <div class="offset-2 col-3 text-center">Clock in</div>
+                            <div class="col-3 text-center">Clock out</div>
+                            <div class="col-2 text-center">Break</div>
+                            <div class="col-2 text-center">Total</div>
+                        </div>
+
+                        <!-- Monday -->
+                        <div class="day row">
+                            <div class="col-2">Mon</div>
+                            <div class="col-3"><input type="text" class="timepicker start form-control form-control-sm text-center" /></div>
+                            <div class="col-3"><input type="text" class="timepicker end form-control form-control-sm text-center" /></div>
+                            <div class="col-2 text-center">
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input break" id="mon-break" />
+                                    <label class="custom-control-label" for="mon-break"></label>
+                                </div>
+                            </div>
+                            <div class="col-2 text-center total">0.0</div>
+                        </div>
+
+                        <!-- Tuesday -->
+                        <div class="day row mt-2">
+                            <div class="col-2">Tue</div>
+                            <div class="col-3"><input type="text" class="timepicker start form-control form-control-sm text-center" /></div>
+                            <div class="col-3"><input type="text" class="timepicker end form-control form-control-sm text-center" /></div>
+                            <div class="col-2 text-center">
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input break" id="tue-break" />
+                                    <label class="custom-control-label" for="tue-break"></label>
+                                </div>
+                            </div>
+                            <div class="col-2 text-center total">0.0</div>
+                        </div>
+
+                        <!-- Wednesday -->
+                        <div class="day row mt-2">
+                            <div class="col-2">Wed</div>
+                            <div class="col-3"><input type="text" class="timepicker start form-control form-control-sm text-center" /></div>
+                            <div class="col-3"><input type="text" class="timepicker end form-control form-control-sm text-center" /></div>
+                            <div class="col-2 text-center">
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input break" id="wed-break" />
+                                    <label class="custom-control-label" for="wed-break"></label>
+                                </div>
+                            </div>
+                            <div class="col-2 text-center total">0.0</div>
+                        </div>
+
+                        <!-- Thursday -->
+                        <div class="day row mt-2">
+                            <div class="col-2">Thur</div>
+                            <div class="col-3"><input type="text" class="timepicker start form-control form-control-sm text-center" /></div>
+                            <div class="col-3"><input type="text" class="timepicker end form-control form-control-sm text-center" /></div>
+                            <div class="col-2 text-center">
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input break" id="thur-break" />
+                                    <label class="custom-control-label" for="thur-break"></label>
+                                </div>
+                            </div>
+                            <div class="col-2 text-center total">0.0</div>
+                        </div>
+
+                        <!-- Friday -->
+                        <div class="day row mt-2">
+                            <div class="col-2">Fri</div>
+                            <div class="col-3"><input type="text" class="timepicker start form-control form-control-sm text-center" /></div>
+                            <div class="col-3"><input type="text" class="timepicker end form-control form-control-sm text-center" /></div>
+                            <div class="col-2 text-center">
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input break" id="fri-break" />
+                                    <label class="custom-control-label" for="fri-break"></label>
+                                </div>
+                            </div>
+                            <div class="col-2 text-center total">0.0</div>
+                        </div>
+
+
+
+                        <div class="row mt-2">
+                            <div class="col text-center">Total Hours: <span class="font-weight-bold" id="total">0.00</span></div>
+                        </div>
+
+                        <footer class="text-center small border-top mt-3">
+                            <p class="mb-0 mt-2 text-muted">
+                                Created by <a href="https://github.com/marchershey">Marc Hershey</a><br>
+                                [ <a href="https://github.com/marchershey/Time-Clock-Calculator" target="_blank">github</a> ]</p>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
