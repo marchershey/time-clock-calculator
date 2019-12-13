@@ -15,23 +15,31 @@ These instructions will get you a copy of the project up and running on your loc
 A step by step series of examples that tell you how to get a development env running
 
 - **Setting up development environment**
+
     1. Clone the repo to your preferred folder
         > git clone https://github.com/marchershey/Time-Clock-Calculator
+
     1. Update the dependencies
         > npm update
+    
     1. **You're all set!**
+    
     1. Optional: Build the project
         > npm run build
         - The npm script that I have set to build the project is `npm run build` which builds the project and places an `app.js` file in the `/dist` folder.
 
 - **Deploying for production**
+
     1. Follow the 4 steps above
+    
     1. Upload all the contents in the `/dist` folder to your `public_html` folder on your server. 
+    
     1. **You're all set!**
 
 ## Dependencies
 
 **Development Dependencies**
+
     - [webpack ^4.41.2](https://www.npmjs.com/package/webpack)
     - [webpack-cli ^3.3.10](https://www.npmjs.com/package/webpack-cli)
     - [style-loader ^1.0.1](https://www.npmjs.com/package/style-loader)
@@ -42,6 +50,7 @@ A step by step series of examples that tell you how to get a development env run
     - [autoprefixer ^9.7.3](https://www.npmjs.com/package/autoprefixer)
 
 **Dependencies**
+
     - [jquery ^3.4.1](https://www.npmjs.com/package/jquery)
     - [bootstrap ^4.4.1](https://www.npmjs.com/package/bootstrap)
     - [popper.js ^1.16.0](https://www.npmjs.com/package/popper.js)
