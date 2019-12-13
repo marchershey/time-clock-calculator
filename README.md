@@ -14,27 +14,27 @@ These instructions will get you a copy of the project up and running on your loc
 
 A step by step series of examples that tell you how to get a development env running
 
-- **Setting up development environment**
+**Setting up development environment**
 
-    1. Clone the repo to your preferred folder
-        > git clone https://github.com/marchershey/Time-Clock-Calculator
+1. Clone the repo to your preferred folder
+    > git clone https://github.com/marchershey/Time-Clock-Calculator
 
-    2. Update the dependencies
-        > npm update
-    
-    3. **You're all set!**
-    
-    4. Optional: Build the project
-        > npm run build
-        - The npm script that I have set to build the project is `npm run build` which builds the project and places an `app.js` file in the `/dist` folder.
+2. Update the dependencies
+    > npm update
 
-- **Deploying for production**
+3. **You're all set!**
 
-    1. Follow the 4 steps above
-    
-    2. Upload all the contents in the `/dist` folder to your `public_html` folder on your server. 
-    
-    3. **You're all set!**
+4. Optional: Build the project
+    > npm run build
+    - The npm script that I have set to build the project is `npm run build` which builds the project and places an `app.js` file in the `/dist` folder.
+
+**Deploying for production**
+
+1. Follow the 4 steps above
+
+2. Upload all the contents in the `/dist` folder to your `public_html` folder on your server. 
+
+3. **You're all set!**
 
 ## Dependencies
 
